@@ -25,9 +25,8 @@ sudo -i <<EOF
 cd /root
 git clone https://github.com/FOGProject/fogproject.git
 cd fogproject/bin
-./installer.sh
 EOF
-
+echo "Now run the installer: ./installer.sh"
 echo "During installation, follow these steps:"
 echo "1. Choose option 1 (Normal Server)."
 echo "2. Use default configurations."
